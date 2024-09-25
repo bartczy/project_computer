@@ -1,6 +1,6 @@
-package computer.hardware;
+package computer.hardware.components;
 
-public class Monitor implements Components{
+public class Monitor implements Components {
     private final String name;
     private int width;
     private int height;

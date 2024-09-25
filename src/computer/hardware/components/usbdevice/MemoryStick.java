@@ -1,9 +1,9 @@
-package computer.hardware.usbdevice;
+package computer.hardware.components.usbdevice;
 
-import computer.hardware.Capacity;
-import computer.software.file.File;
-import computer.software.file.FileNotFoundException;
-import computer.software.file.FileStorage;
+import computer.software.file.shared.Capacity;
+import computer.software.file.shared.File;
+import computer.software.file.shared.FileNotFoundException;
+import computer.software.file.shared.FileStorage;
 
 public class MemoryStick extends USBDevice {
 

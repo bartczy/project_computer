@@ -1,4 +1,4 @@
-package computer.hardware;
+package computer.software.file.shared;
 
 public enum Capacity {
     GB1(1_073_741_824L),  // 1 GB w bajtach

@@ -1,6 +1,4 @@
-package computer.hardware.usbdevice;
-
-import computer.hardware.ComponentType;
+package computer.hardware.components.usbdevice;
 
 public class Mouse extends USBDevice{
 

@@ -1,9 +1,9 @@
-package computer.hardware.drive;
-import computer.hardware.Capacity;
-import computer.hardware.ComponentType;
-import computer.software.file.File;
-import computer.software.file.FileNotFoundException;
-import computer.software.file.FileStorage;
+package computer.hardware.components.drive;
+import computer.software.file.shared.Capacity;
+import computer.hardware.components.ComponentType;
+import computer.software.file.shared.File;
+import computer.software.file.shared.FileNotFoundException;
+import computer.software.file.shared.FileStorage;
 
 public class HDDDrive implements Drive {
     private final String name;

@@ -1,6 +1,6 @@
-package computer.software.file;
+package computer.software.file.shared;
 
-public abstract class AbstractFile implements File{
+public abstract class AbstractFile implements File {
     protected final String name;
     protected final int size;
 

@@ -1,7 +1,7 @@
-package computer.hardware.drive;
-import computer.hardware.Components;
-import computer.software.file.File;
-import computer.software.file.FileNotFoundException;
+package computer.hardware.components.drive;
+import computer.hardware.components.Components;
+import computer.software.file.shared.File;
+import computer.software.file.shared.FileNotFoundException;
 
 public interface Drive extends Components {
     void addFile(File file);

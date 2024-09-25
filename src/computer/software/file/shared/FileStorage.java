@@ -1,6 +1,4 @@
-package computer.software.file;
-
-import computer.hardware.Capacity;
+package computer.software.file.shared;
 
 import java.util.ArrayList;
 import java.util.List;

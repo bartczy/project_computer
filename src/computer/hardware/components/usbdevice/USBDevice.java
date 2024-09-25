@@ -1,7 +1,7 @@
-package computer.hardware.usbdevice;
+package computer.hardware.components.usbdevice;
 
-import computer.hardware.ComponentType;
-import computer.hardware.Components;
+import computer.hardware.components.ComponentType;
+import computer.hardware.components.Components;
 
 import java.util.Scanner;
 

@@ -1,10 +1,13 @@
-package computer.hardware;
+package computer.hardware.computer;
 
-import computer.hardware.drive.Drive;
-import computer.hardware.usbdevice.MemoryStick;
-import computer.software.file.File;
-import computer.hardware.usbdevice.USBDevice;
-import computer.software.file.FileNotFoundException;
+import computer.hardware.components.Components;
+import computer.hardware.components.Headphones;
+import computer.hardware.components.Monitor;
+import computer.hardware.components.drive.Drive;
+import computer.hardware.components.usbdevice.MemoryStick;
+import computer.software.file.shared.File;
+import computer.hardware.components.usbdevice.USBDevice;
+import computer.software.file.shared.FileNotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +15,18 @@ import java.util.List;
 public class Computer {
     List<Components> components = new ArrayList<>();
 
-    public Computer(Monitor monitor, Drive drive) {
+    private static Computer instance;
+
+    private Computer(Monitor monitor, Drive drive) {
         components.add(monitor);
         components.add(drive);
+        // run();   dodać metodę uruchamiającą komputer, jeżeli będzie w konstruktorze zostanie automatycznie wywołana podczas inicializowania instancji Computer
+    }
+
+    public static Computer getInstance(Monitor monitor, Drive drive){
+        if (instance == null){
+            return new Computer(monitor, drive);
+        } else return instance;
     }
 
     public Monitor getMonitor() {

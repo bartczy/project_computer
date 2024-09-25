@@ -1,4 +1,4 @@
-package computer.hardware;
+package computer.hardware.components;
 
 public class Headphones implements Components {
 

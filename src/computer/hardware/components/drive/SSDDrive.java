@@ -1,14 +1,12 @@
-package computer.hardware.drive;
+package computer.hardware.components.drive;
 
-import computer.hardware.Capacity;
-import computer.hardware.ComponentType;
-import computer.software.file.File;
-import computer.software.file.FileNotFoundException;
-import computer.software.file.FileStorage;
+import computer.software.file.shared.Capacity;
+import computer.hardware.components.ComponentType;
+import computer.software.file.shared.File;
+import computer.software.file.shared.FileNotFoundException;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class SSDDrive implements Drive {
     private final Capacity capacity;

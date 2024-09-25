@@ -1,7 +1,7 @@
 package computer.software.file.image;
 
-import computer.software.file.AbstractFile;
-import computer.software.file.FileType;
+import computer.software.file.shared.AbstractFile;
+import computer.software.file.shared.FileType;
 
 public class AbstractImageFIle extends AbstractFile {
 

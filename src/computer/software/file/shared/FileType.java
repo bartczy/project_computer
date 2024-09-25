@@ -1,4 +1,4 @@
-package computer.software.file;
+package computer.software.file.shared;
 
 public enum FileType {
     MUSIC, IMAGE

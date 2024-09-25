@@ -1,4 +1,4 @@
-package computer.hardware;
+package computer.hardware.components;
 
 public enum ComponentType {
 
